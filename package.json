@@ -1,0 +1,30 @@
+{
+  "name": "snowpack-react",
+  "version": "1.0.0",
+  "description": "A starter template for a React app using Snowpack for the build",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesjohnson280/snowpack-react.git"
+  },
+  "keywords": [],
+  "author": "James Johnson <james.johnson280@gmail.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/jamesjohnson280/snowpack-react/issues"
+  },
+  "homepage": "https://github.com/jamesjohnson280/snowpack-react#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "snowpack": "^3.0.11"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.4.0"
+  }
+}

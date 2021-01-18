@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Hello from './components/Hello/Hello';
 
-const App = () => {
-  return <Hello />; 
-};
+const App = () => <Hello />;
 
 ReactDOM.render(<App />, document.getElementById('app'));
 

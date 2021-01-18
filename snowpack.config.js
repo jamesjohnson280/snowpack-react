@@ -4,19 +4,16 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    src: '/js',
+    src: '/dist',
     public: { url: '/', static: true },
-  },
-  optimize: {
-    bundle: true,
-    minify: true,
-    target: 'es2018',
   },
   plugins: [
     '@snowpack/plugin-react-refresh',
+    '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-webpack',
   ],
   packageOptions: {
-    /* ... */
+    polyfillNode: true,
   },
   devOptions: {
     /* ... */

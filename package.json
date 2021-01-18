@@ -6,7 +6,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./src"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/jamesjohnson280/snowpack-react#readme",
   "dependencies": {
+    "@snowpack/app-scripts-react": "^2.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "snowpack": "^3.0.11"
@@ -27,6 +28,8 @@
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.4.0",
-    "@snowpack/plugin-webpack": "^2.3.0"
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "@testing-library/react": "^11.2.3",
+    "jest": "^26.6.3"
   }
 }

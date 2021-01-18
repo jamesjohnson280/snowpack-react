@@ -12,9 +12,6 @@ module.exports = {
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-webpack',
   ],
-  packageOptions: {
-    polyfillNode: true,
-  },
   devOptions: {
     /* ... */
   },
